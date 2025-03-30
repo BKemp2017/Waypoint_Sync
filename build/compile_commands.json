@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o src/CMakeFiles/nmea2000.dir/N2kMsg.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/src/N2kMsg.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/src/N2kMsg.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o src/CMakeFiles/nmea2000.dir/N2kStream.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/src/N2kStream.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/src/N2kStream.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o src/CMakeFiles/nmea2000.dir/N2kMessages.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/src/N2kMessages.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/src/N2kMessages.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o src/CMakeFiles/nmea2000.dir/N2kTimer.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/src/N2kTimer.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/src/N2kTimer.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o src/CMakeFiles/nmea2000.dir/Seasmart.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/src/Seasmart.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/src/Seasmart.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o src/CMakeFiles/nmea2000.dir/N2kDeviceList.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/src/N2kDeviceList.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/src/N2kDeviceList.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o src/CMakeFiles/nmea2000.dir/N2kGroupFunction.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/src/N2kGroupFunction.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/src/N2kGroupFunction.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o src/CMakeFiles/nmea2000.dir/N2kGroupFunctionDefaultHandlers.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/src/N2kGroupFunctionDefaultHandlers.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/src/N2kGroupFunctionDefaultHandlers.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o src/CMakeFiles/nmea2000.dir/N2kMaretron.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/src/N2kMaretron.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/src/N2kMaretron.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o src/CMakeFiles/nmea2000.dir/NMEA2000.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/src/NMEA2000.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/src/NMEA2000.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/third-party/catch -g -Wall -Werror -std=c++11 -g -o third-party/catch/CMakeFiles/catch.dir/catch.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/third-party/catch/catch.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/third-party/catch/catch.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/third-party/catch -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o test/CMakeFiles/SeasmartTests.dir/SeasmartTests.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/test/SeasmartTests.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/test/SeasmartTests.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/third-party/catch -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o test/CMakeFiles/SeasmartTests.dir/millis.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/test/millis.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/test/millis.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/third-party/catch -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o test/CMakeFiles/N2kMessagesTests.dir/N2kMessagesTest.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/test/N2kMessagesTest.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/test/N2kMessagesTest.cpp"
+},
+{
+  "directory": "/home/blake/waypoint_sync_project/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -I/home/blake/waypoint_sync_project/NMEA2000/third-party/catch -I/home/blake/waypoint_sync_project/NMEA2000/src -g -Wall -Werror -std=c++11 -g -o test/CMakeFiles/N2kMessagesTests.dir/millis.cpp.o -c /home/blake/waypoint_sync_project/NMEA2000/test/millis.cpp",
+  "file": "/home/blake/waypoint_sync_project/NMEA2000/test/millis.cpp"
+}
+]

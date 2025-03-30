@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/blake/waypoint_sync_project/NMEA2000/src",
+                "/home/blake/waypoint_sync_project/NMEA2000_socketCAN",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/tests",
+                "${workspaceFolder}/json/include",
+                "/usr/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

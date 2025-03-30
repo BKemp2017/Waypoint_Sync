@@ -1,0 +1,71 @@
+{
+    "paths": {
+        "waypoints_file": "/mnt/nvme/waypoints.json",
+        "watch_directory": "/home/blake/waypoint_sync_test_dir",
+        "log_directory": "/var/log/waypoint_sync",
+        "temp_directory": "/tmp/waypoint_sync"
+    },
+    "format_mappings": {
+        "gpx": "gpx",
+        "usr": "lowrance",
+        "Garmin": "garmin",
+        "Humminbird": "humminbird",
+        "Lowrance": "lowrance",
+        "hwr": "humminbird",
+        "Raymarine": "raymarine"
+    },
+    "retry_settings": {
+        "inotify_init": 3,
+        "format_load": 3,
+        "device_connect": 5
+    },
+    "led_patterns": {
+        "power": {
+            "on_duration": 1000,
+            "off_duration": 0,
+            "count": 0
+        },
+        "listening": {
+            "on_duration": 500,
+            "off_duration": 500,
+            "count": 0
+        },
+        "error": {
+            "on_duration": 200,
+            "off_duration": 200,
+            "count": 3
+        },
+        "transmitting": {
+            "on_duration": 100,
+            "off_duration": 100,
+            "count": 0
+        }
+    },
+    "device_settings": {
+        "polling_interval": 4000,
+        "max_retry_delay": 30000,
+        "connection_timeout": 5000
+    },
+    "supported_devices": [
+        {
+            "name": "Garmin",
+            "protocols": ["USB", "NMEA 2000"],
+            "formats": ["gpx", "gdb"]
+        },
+        {
+            "name": "Raymarine",
+            "protocols": ["NMEA 2000"],
+            "formats": ["gpx", "rwf"]
+        },
+        {
+            "name": "Humminbird",
+            "protocols": ["NMEA 2000"],
+            "formats": ["gpx", "hwr"]
+        },
+        {
+            "name": "Lowrance",
+            "protocols": ["NMEA 2000"],
+            "formats": ["gpx", "usr"]
+        }
+    ]
+}

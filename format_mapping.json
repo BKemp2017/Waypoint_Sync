@@ -1,0 +1,5 @@
+{
+    "Lowrance": { "format_name": "lowranceusr" },
+    "Humminbird": { "format_name": "humminbird" },
+    "Garmin": { "format_name": "gpx" }
+}

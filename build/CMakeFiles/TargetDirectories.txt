@@ -1,0 +1,16 @@
+/home/blake/waypoint_sync_project/build/CMakeFiles/test.dir
+/home/blake/waypoint_sync_project/build/CMakeFiles/edit_cache.dir
+/home/blake/waypoint_sync_project/build/CMakeFiles/rebuild_cache.dir
+/home/blake/waypoint_sync_project/build/src/CMakeFiles/nmea2000.dir
+/home/blake/waypoint_sync_project/build/src/CMakeFiles/test.dir
+/home/blake/waypoint_sync_project/build/src/CMakeFiles/edit_cache.dir
+/home/blake/waypoint_sync_project/build/src/CMakeFiles/rebuild_cache.dir
+/home/blake/waypoint_sync_project/build/third-party/catch/CMakeFiles/catch.dir
+/home/blake/waypoint_sync_project/build/third-party/catch/CMakeFiles/test.dir
+/home/blake/waypoint_sync_project/build/third-party/catch/CMakeFiles/edit_cache.dir
+/home/blake/waypoint_sync_project/build/third-party/catch/CMakeFiles/rebuild_cache.dir
+/home/blake/waypoint_sync_project/build/test/CMakeFiles/SeasmartTests.dir
+/home/blake/waypoint_sync_project/build/test/CMakeFiles/N2kMessagesTests.dir
+/home/blake/waypoint_sync_project/build/test/CMakeFiles/test.dir
+/home/blake/waypoint_sync_project/build/test/CMakeFiles/edit_cache.dir
+/home/blake/waypoint_sync_project/build/test/CMakeFiles/rebuild_cache.dir

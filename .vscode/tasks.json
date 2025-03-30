@@ -1,0 +1,44 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ build main file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}/src/main.cpp",
+                "${workspaceFolder}/src/sync_manager.cpp",
+                "${workspaceFolder}/src/nmea_waypoint_handler.cpp",
+                "${workspaceFolder}/src/waypoint_converter.cpp",
+                "-o",
+                "${workspaceFolder}/build/main",
+                "-std=c++17",
+                "-I/usr/src/googletest/include",
+                "-I${workspaceFolder}/NMEA2000/src",
+                "-I${workspaceFolder}/NMEA2000_socketCAN",
+                "-I${workspaceFolder}/src",
+                "-I${workspaceFolder}/json/include",
+                "-lwiringPi",
+                "-L/usr/src/googletest/lib",
+                "-lgtest", "-lgmock", "-lgtest_main",
+                "-lpthread",
+                "-L${workspaceFolder}/NMEA2000",
+                "-L${workspaceFolder}/NMEA2000_socketCAN",
+                "-lNMEA2000", "-lNMEA2000_socketCAN"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Task generated to build the main file with all necessary source files and includes."
+        }
+    ],
+    "version": "2.0.0"
+}

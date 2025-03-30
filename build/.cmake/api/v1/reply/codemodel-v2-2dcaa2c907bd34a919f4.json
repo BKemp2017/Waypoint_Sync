@@ -1,0 +1,135 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "third-party/catch",
+					"jsonFile" : "directory-third-party.catch-Debug-28b8df8f68e7895580eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third-party/catch",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "NMEA2000",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "N2kMessagesTests::@36f028580bb02cc8272a",
+					"jsonFile" : "target-N2kMessagesTests-Debug-e6cabe2e87d12016e174.json",
+					"name" : "N2kMessagesTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SeasmartTests::@36f028580bb02cc8272a",
+					"jsonFile" : "target-SeasmartTests-Debug-316aa951bcf39a92b276.json",
+					"name" : "SeasmartTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "catch::@445a2feddd1f171d6c2f",
+					"jsonFile" : "target-catch-Debug-4d7a7edc762ce15fe3ac.json",
+					"name" : "catch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nmea2000::@145eef247bfb46b6828c",
+					"jsonFile" : "target-nmea2000-Debug-c38f76edc1f528d85b17.json",
+					"name" : "nmea2000",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/blake/waypoint_sync_project/build",
+		"source" : "/home/blake/waypoint_sync_project/NMEA2000"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
