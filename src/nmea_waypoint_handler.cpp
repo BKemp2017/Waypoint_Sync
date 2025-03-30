@@ -57,12 +57,31 @@ void NMEAWaypointHandler::OnN2kMessage(const tN2kMsg &N2kMsg) {
 
 void NMEAWaypointHandler::handleWaypointList(const tN2kMsg &N2kMsg) {
     std::cout << "Received waypoint list message." << std::endl;
+
+    // Dump PGN raw data to console
+    std::cout << "Raw PGN Data: ";
+    for (int i = 0; i < N2kMsg.DataLen; ++i) {
+        printf("%02X ", N2kMsg.Data[i]);
+    }
+    std::cout << std::endl;
+
+    // Log raw PGN data to file
+    std::ofstream log("/mnt/nvme/logs/pgn_data_log.txt", std::ios::app);
+    log << "PGN: " << N2kMsg.PGN << " | LEN: " << N2kMsg.DataLen << " | DATA: ";
+    for (int i = 0; i < N2kMsg.DataLen; ++i) {
+        log << std::hex << std::uppercase << (int)N2kMsg.Data[i] << " ";
+    }
+    log << std::endl;
+    log.close();
+
+    // Placeholder values until we parse real data
     std::string name = "PGNWaypoint";
     double lat = 34.1234567;   // Replace with decoded latitude
     double lon = -84.1234567;  // Replace with decoded longitude
 
     syncManager.syncWaypoint(lat, lon, name);
 }
+
 
 void NMEAWaypointHandler::start() {
     static bool alreadyStarted = false;
