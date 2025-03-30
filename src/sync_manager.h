@@ -35,7 +35,8 @@ public:
 private:
     int inotifyFd = -1;  
     bool inotifyChangeDetected = false; 
-    bool pollChangeDetected = false; 
+    bool pollChangeDetected = false;
+    uint16_t nextWaypointId = 1000;
     void handleFileChange(const char *buffer); 
     void pollForChanges(const std::string &path); 
     std::shared_ptr<NMEAWaypointHandler> nmeaHandler;

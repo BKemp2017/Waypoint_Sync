@@ -186,7 +186,7 @@ void SyncManager::syncWaypointsAcrossDevices() {
 
 void SyncManager::syncWaypoint(double lat, double lon, const std::string &name) {
     std::cout << "Syncing waypoint: " << name << " [" << lat << ", " << lon << "] across devices." << std::endl;
-    nmeaHandler->addWaypoint(0, name, lat, lon);
+    nmeaHandler->addWaypoint(nextWaypointId++, name, lat, lon);
 }
 
 void SyncManager::setNMEAHandler(std::shared_ptr<NMEAWaypointHandler> handler) {
